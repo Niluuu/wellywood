@@ -1,0 +1,96 @@
+@media(max-width: 1760px) {
+	.big_container {max-width: 1400px;}
+	.medium_container {width: 100%; max-width: 1200px;}
+}
+@media(max-width: 1600px) {
+	.catalog .content .boxes .product-item {width: 33.33333%;}
+}
+@media(max-width: 1450px) {
+	.big_container {max-width: 1170px;}
+	.medium_container {max-width: 1170px;}
+	.mainMenu .menu-item > a {font-size: 14px;}
+	.mainMenu > ul {max-width: 90%;}
+	.boxgallery .panel .content {padding-left: 70px;}
+	.fourSlider .big_container {min-height: 600px!important;}
+	.header .requestCall span {font-size: 18px;}
+	.header .contactBox a {font-size: 24px;}
+	.header .contactBox {margin-left: 100px;}
+	.product-item .wrap .caption .price {font-size: 30px;}
+	.footer .leftBox .bottom, .footer .rightBox, .footer .menus ul li a {font-size: 18px;}
+	.trends .leftBox .item {padding: 50px;}
+	.trends .rightBox .titleT p {font-size: 18px; line-height: 15px; margin-top: 5px;}
+	.mainMenu .dropdown-content span, .mainMenu .dropdown-content2 span {font-size: 16px;}
+	.mainMenu .dropdown-content img {width: 44px;}
+	.mainMenu .dropdown-content2 a {font-size: 16px;}
+	h4 {font-size: 18px;}
+	h5 {font-size: 20px;}
+	.wishlist_page .content .item .product-name {font-size: 24px;}
+	.wishlist_page .content .item .semibold {font-size: 18px;}
+	.underTitle {font-size: 36px;}
+	.sales .item .tape {width: 100%;}
+}
+@media(max-width: 1199px) {
+	.mainMenu ul {justify-content: center; width: 100%;}
+	.big_container, .medium_container {max-width: 970px;}
+	.bestSales .boxes .product-item {width: 33.33333%;}
+	.advantages .item {width: 33.33333%;}
+	.advantages .big_container {flex-wrap: wrap;}
+	.header .requestCall span {display: none;}
+	.header > .big_container {position: relative; justify-content: flex-end;}
+	.header .logo img {height: 65px; width: auto; position: absolute;left: 0; top: -12px;}
+	.header > .big_container .rightBox {margin-left: 60px;}
+}
+@media(max-width: 1000px) {
+	.padd70x0 {padding: 60px 0px;}
+	.mainMenu > ul {display: none;}
+	.site-header__menu-button {display: inline-block; margin-left: 10px;}
+	.big_container, .medium_container {max-width: 90%;}
+	.site-menu {display: block; overflow-x: hidden;}
+	.boxgallery .panel .content {padding-left: 0px;}
+	.header .contactBox .flex_col{display: none;}
+	.header, .header .logo img {transition: .3s;}
+	.header.sticky {
+		position: fixed; left: 0; top: 0;
+		width: 100%; z-index: 5; background-color: #fbb400;
+		padding: 15px 0px;
+	}
+	.header.sticky .logo img {height: 47px; top: -4px;}
+	.bigHeader {padding-top: 100px;}
+	.bigHeader .header {position: fixed; left: 0; top: 0; width: 100%; z-index: 9;}
+	.minHeader {padding-top: 100px;}
+	.minHeader .header {position: fixed; left: 0; width: 100%; top: 0;}
+	.header .circle-icon, .header .buttons .language .current, .site-header__menu-button svg {width: 40px; height: 40px;}
+	.site-header__menu-button svg {margin-bottom: -5px;}
+	.header .buttons .language .current {line-height: 40px;}
+	.header .circle-icon img {width: 100%; height: 100%;}
+	.trends .leftBox {width: 60%;}
+	.trends .rightBox {width: 40%;}
+	.footer {position: relative; padding-bottom: 90px;}
+	.footer > .flex_row_beet {flex-direction: column;}
+	.footer .leftBox {width: 100%;}
+	.footer .rightBox {text-align: left;}
+	.footer .rightBox .payment .boxes, .footer .rightBox .social {justify-content: flex-start;}
+	.footer .rightBox .payment .boxes img {margin-left: 0px; margin-right: 20px;}
+	.footer .rightBox .social {margin-left: -5px;}
+	.footer .rightBox .contact-box {display: flex;}
+	.footer .rightBox .contact-box .table-cell {display: block; width: 33.33333%;}
+	.footer .leftBox .bottom {
+		position: absolute;
+	    bottom: 0;
+	    width: 100%;
+	    left: 0;
+	    padding: 0px 5%;
+	    margin: 0;
+	    padding-bottom: 20px;
+	}
+	.arrows .leftArrow, .arrows .rightArrow {width: 45px; height: 45px;}
+}
+@media(max-width: 840px) {
+	.bestSales .boxes .product-item {width: 50%;}
+	.sales .item .wrap > .flex_row {flex-direction: column;}
+	.sales .item .wrap .leftBox {padding: 20px; width: 100%;}
+	.sales .item .wrap .rightBox {width: 100%;}
+	.sales .item .wrap > div:not(.flex_row) .col-6 {
+		padding: 0px 10px;
+	}
+}
